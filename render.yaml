@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ashish-voice-portfolio
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: ASSISTANT_ID
+        value: f9f3f69d-66ae-4e4a-bbf2-7f39643f6c3f
+      - key: VAPI_PUBLIC_KEY
+        sync: false
